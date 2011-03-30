@@ -1,0 +1,36 @@
+doctype html
+html lang="en"
+  head
+    title
+      = "Sinatra Mongoid prototyping application."
+    meta http-equiv="Content-Type" content="text/html; charset=utf-8"
+    meta name="language" content="en"
+    meta name="viewport" content="width=1024,maximum-scale=1.0"
+
+    link href="/stylesheets/reset.css" media="screen" rel="stylesheet" type="text/css"
+    link href="/stylesheets/grid.css" media="screen" rel="stylesheet" type="text/css"
+    link href="/stylesheets/application.css" media="screen" rel="stylesheet" type="text/css"
+
+    /![if IE]
+      script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"
+    /![if lt IE 9]
+      script type="text/javascript" src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"
+
+  body
+  
+    header
+      .container_12
+        nav.grid_12
+          ol
+            li
+              a.selected href="/"
+          hr/
+    
+    .container_12
+      section.welcome.grid_12
+        h1 Sinatra + Mongoid prototyping application.
+        hr
+        = yield
+  
+  script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"
+  script type="text/javascript" src="/javascripts/application.js"
