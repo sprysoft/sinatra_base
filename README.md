@@ -5,8 +5,10 @@ A Sinatra application
 ---------------------
 
 This is a simple sinatra application for rapid web app prototyping which 
-has been configured to be hosted on the amazing [Heroku Platform](http://heroku.com/), 
-bamboo-mri-1.9.2 stack. I will be testing on additional heroku stacks too. 
+has been configured to be hosted on the amazing [Heroku Platform](http://heroku.com/).
+Runs on both:
+* bamboo-ree-1.8.7 stack
+* bamboo-mri-1.9.2 stack 
 
 The application comes with jQuery 1.5.1 loaded from Google Ajax Libraries
 
