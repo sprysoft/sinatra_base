@@ -24,6 +24,12 @@ Current Gems
 * Capybara
 * Rack-Test
 
+Heroku Install
+--------------
+Everything you need to know you learned in kindergarten and from this link:
+
+https://devcenter.heroku.com/articles/ruby
+
 Licence
 -------
 
