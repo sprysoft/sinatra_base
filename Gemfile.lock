@@ -48,7 +48,7 @@ GEM
       mongo (~> 1.2.1)
       will_paginate (< 2.9)
     nokogiri (1.4.4)
-    rack (1.2.2)
+    rack (1.6.13)
     rack-test (0.5.7)
       rack (>= 1.0)
     rake (0.8.7)
